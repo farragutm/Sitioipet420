@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPET 420 - Contacto</title>
+    <link rel="shortcut icon" href="./img/Logo 420.ico" type="image/x-icon">
+    <!--Link de BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+<!--ESTILOS CSS-->
+
+<link rel="stylesheet" href="./css/Styles.css"/>
+</head>
+
+
+<body>
+    <div id="pagina">
+    <!--MENU-->
+    <div class="menu">
+      <nav class="navbar navbar-expand-lg bg-success-subtle">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">IPET 420</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sobre Nosotros
+                </a>
+                <ul class="dropdown-menu bg-success-subtle">
+                  <li><a class="dropdown-item" href="./historia.html">Historia</a></li>
+                  <li><a class="dropdown-item" href="./aec.html">AEC</a></li>
+                  <li><a class="dropdown-item" href="./personal.html">Personal</a></li>
+                </ul>
+              </li>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Especialidades
+            </a>
+            <ul class="dropdown-menu bg-success-subtle">
+              <li><a class="dropdown-item" href="./programacion.html">Técnico en Programación</a></li>
+              <li><a class="dropdown-item" href="./mecanizacion.html">Técnico en Mecanización Agropecuaria</a></li>
+            </ul>
+          </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./notificaciones.html">Notificaciones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./galeria.html">Imágenes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+<br>
+
+<!--FORMULARIO CONTACTO-->
+<div class="row-9">
+<div id="form">
+<form action="https://formsubmit.co/ipetislaverde@gmail.com" method="POST" class="row col-lg-10">
+ <div class="row">
+  <div class="col-md-3"">
+  <label for="validationDefault01" class="form-label">Nombre</label>
+  <input type="text" name="Nombre" required placeholder="Nombre">
+</div>
+
+<div class="col-md-3">
+  <label for="validationDefault02" class="form-label">Apellido</label>
+  <input type="text" name="Apellido" required placeholder="Apellido">
+</div>
+
+<div class="col-md-4">
+  <label for="validationDefault03" class="form-label">Correo Electrónico</label>
+  <input type="email" name="email" required placeholder="Email">
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-3"">
+  <label for="validationDefault04" class="form-label">N° de teléfono</label>
+  <input type="text" name="Tel:" placeholder="N° Teléfono">
+</div>
+
+<div class="col-md-3">
+  <label for="validationDefault05" class="form-label">Localidad</label>
+  <input type="text" name="Localidad" placeholder="Localidad">
+</div>
+</div>
+<br>
+
+
+<div class="mensaje">
+  <div class= "row">
+    
+    <label for="mensaje">Mensaje</label>
+    <textarea name="mensaje" id="msg" col="9" rows="3" placeholder="Ingrese su mensaje..." required></textarea>
+  
+</div>
+</div>
+
+<div class="row">
+  <div class="col-6">
+  </div>
+  <div class="col-3">
+    <br>
+<button type="submit"class="btn btn-success">Enviar Formulario</button>
+</div>
+</div>
+
+
+  <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+  <input type="hidden" name="_captcha" value="false">
+</form>
+</div>
+</div>
+
+<br>
+
+<!--TELEFONOS Y MAPS-->
+<div class="row">
+  <div class="col-1"></div>
+  <div class="col-2">
+    <div class="celu">
+      <img src="./img/logo-whatsApp.png" alt="WhastsApp" width="100%">
+      <br>
+      <a class="nav-link" href="https://www.wa.link/sr3jqr"><b>3468-435304</b></a>
+    </div>
+   </div>
+   
+   <div class="col-1"></div>
+   
+    <div class="col-2">
+    <div class="fijo">
+      <img src="./img/fijo.png" alt="Fijo" width="100%">
+      <br>
+      <h4 class="nav-link"><b>3468-406689</b></h4>
+    </div>
+   </div>
+
+   <div class="col-1"></div>
+
+   <div class="col-4">
+    <div class="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1668.5465357103217!2d-62.403121925893224!3d-33.23786504283227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c918ff92af59cd%3A0xfa22bf27a28e7dff!2sIPET%20Isla%20Verde!5e0!3m2!1ses!2sar!4v1686769148606!5m2!1ses!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   </div>
+
+</div> <!--FIN TEL Y MAP-->
+<br>
+<div class="pie">
+  <footer> <center>Realizado por 6° y 7° año Tecnico en Programación - IPET 420 - Todos los derechos reservados</center></footer>
+</div>
+</div>
+</div>
+</body>
+</html>
